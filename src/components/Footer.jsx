@@ -6,7 +6,7 @@ function Footer() {
     return (
       <FooterContainer>
         <FooterText>© 2023 CompactCode Brasil. Todos os direitos reservados.</FooterText>
-        <FooterText>Whatsapp: (11) 98066-0741</FooterText>
+        <FooterText> || Whatsapp: (11) 98066-0741</FooterText>
       </FooterContainer>
     );
   }
