@@ -6,7 +6,7 @@ function Footer() {
     return (
       <FooterContainer>
         <FooterText>© 2023 CompactCode Brasil. Todos os direitos reservados.</FooterText>
-        <FooterText> || Whatsapp: (11) 98066-0741</FooterText>
+        <FooterTel> || Whatsapp: (11) 98066-0741 || </FooterTel>
       </FooterContainer>
     );
   }
@@ -27,6 +27,10 @@ function Footer() {
 `;
 
 const FooterText = styled.p`
+  font-size: 16px;
+  font-weight: bold;
+`;
+const FooterTel = styled.p`
   font-size: 16px;
   font-weight: bold;
 `;
