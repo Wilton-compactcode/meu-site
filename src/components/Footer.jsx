@@ -1,38 +1,51 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FaFacebookF, FaInstagram, FaGithub } from 'react-icons/fa';
 
+const FooterContainer = styled.footer`
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+`;
 
-function Footer() {
-    return (
-      <FooterContainer>
-        <FooterText>© 2023 CompactCode Brasil. Todos os direitos reservados.<br/>|| Whatsapp: (11) 98066-0741 || </FooterText>
-        </FooterContainer>
-    );
-  }
-
-  const FooterContainer = styled.div`
+const SocialIconsContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #4e2504;
-  color: #fff;
-  height: 80px;
-  width: 100%;
-  @media screen and (max-width: 768px) {
-    margin-right: 5px;
-    margin-bottom: 8px;
-    text-align: center;
-  }
 `;
 
-const FooterText = styled.p`
-  font-size: 16px;
+const SocialIconLink = styled.a`
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+`;
+
+const RightsReserved = styled.p`
+  margin-top: 20px;
   text-align: center;
-  font-weight: bold;
 `;
-const FooterTel = styled.p`
-  font-size: 16px;
-  font-weight: bold;
-`;
-  
-  export default Footer;
+
+const Footer = () => {
+  return (
+    <FooterContainer>
+      <SocialIconsContainer>
+        <SocialIconLink href="#" target="_blank">
+          <FaFacebookF />
+        </SocialIconLink>
+        <SocialIconLink href="#">
+          <FaGithub />
+        </SocialIconLink>
+        <SocialIconLink href="#" target="_blank">
+          <FaInstagram />
+        </SocialIconLink>
+      </SocialIconsContainer>
+      <h2>Ligue: (11)98066-0741</h2>
+      <RightsReserved>&copy; 2023 CompactCode Brasil / Todos os direitos reservados.</RightsReserved>
+    </FooterContainer>
+  );
+};
+
+export default Footer;

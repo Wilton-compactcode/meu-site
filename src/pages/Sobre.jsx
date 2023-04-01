@@ -1,15 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
-import background from '../assets/quemSomos.jpeg';
+import quemSomosImg from '../assets/quemSomos.jpg';
 
-const Container = styled.div`
+const CardContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px - 60px); /* Altura da tela menos altura do header e do footer */
+`;
+
+const Card = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;background-image: url(${background});
-  background-size: cover;
-  background-position: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(62, 230, 11, 0.1);
 `;
 
 const Title = styled.h1`
@@ -25,14 +35,25 @@ const Text = styled.p`
   color: #008cff;
 `;
 
+const Image = styled.img`
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+`;
+
 function About() {
   return (
-    <Container>
-      <Title>Sobre Nós</Title>
-      <Text>
-        Somos uma equipe de desenvolvedores apaixonados por criar soluções digitais inovadoras.
-      </Text>
-    </Container>
+    <CardContainer>
+      <Card>
+        <Title>Sobre Nós</Title>
+        <Image src={quemSomosImg} alt="Quem somos" />
+        <Text>
+          Eu sou um desenvolvedor web e ofereço soluções personalizadas e inovadoras para clientes em todo o mundo. Dedicado a fornecer serviços de alta qualidade e suporte excepcional aos nossos clientes.
+          Mantenho um diálogo aberto e honesto com nossos clientes em cada etapa do projeto, comprometido em fornecer soluções de alta qualidade dentro do prazo e do orçamento acordados. Estou sempre evoluindo e aprimorando meus serviços para atender às necessidades do mercado em constante mudança. Como desenvolvedor web, estou comprometido em fornecer soluções de alta qualidade e garantir a satisfação dos meus clientes.
+        </Text>
+      </Card>
+    </CardContainer>
   );
 }
 
