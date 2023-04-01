@@ -14,12 +14,17 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  border-radius: 10px;
-  width: 80%;
-  max-width: 400px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(62, 230, 11, 0.1);
+  background-color: rgb(244, 241, 181);
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 900px;
+  margin-top: 20px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    height: auto;
+  }
 `;
 
 const Title = styled.h1`
@@ -30,16 +35,25 @@ const Title = styled.h1`
 `;
 
 const Text = styled.p`
-  font-size: 1.5rem;
-  text-align: center;
-  color: #008cff;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 16px;
+  text-align: justify;
 `;
 
 const Image = styled.img`
-  width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-  margin-bottom: 2rem;
+  width: 90%;
+  height: 80%;
+  /* object-fit: cover; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  @media (max-width: 768px) {
+    height: 30%;
+  }
 `;
 
 function About() {
