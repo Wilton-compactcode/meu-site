@@ -14,10 +14,10 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(244, 241, 181);
+  background-color: rgb(181, 228, 244);
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  width: 600px;
   height: 900px;
   margin-top: 20px;
 
@@ -35,9 +35,9 @@ const Title = styled.h1`
 `;
 
 const Text = styled.p`
-  font-size: 18px;
+  font-size: 22px;
   line-height: 24px;
-  color: #333333;
+  color: #080808;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 16px;
@@ -45,8 +45,8 @@ const Text = styled.p`
 `;
 
 const Image = styled.img`
-  width: 90%;
-  height: 80%;
+  width: 95%;
+  height: 70%;
   /* object-fit: cover; */
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;

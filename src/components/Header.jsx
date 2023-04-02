@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import logo from '../assets/logo.png';
-import menuBar from '../assets/menu-bar.svg';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import React, { useState } from 'react';
 
 
@@ -89,7 +89,6 @@ const MenuButton = styled.button`
   color: #f6f6fa;
   transition: all 0.3s ease;
   margin-top: 30px;
-  background-image: url(${menuBar});
   background-size: 25px 25px;
   background-repeat: no-repeat;
   background-position: center;
@@ -125,7 +124,7 @@ function Header() {
         </ContactButton>
       </Navbar>
       <MenuButton onClick={handleMenuButtonClick}>
-        {isOpen ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}
+        {isOpen ? <FaTimes /> : <FaBars />}
       </MenuButton>
     </HeaderContainer>
   );
