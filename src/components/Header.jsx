@@ -9,7 +9,7 @@ const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: #070707;
-  height: 100px;
+  height: 130px;
   padding: 0 50px;
 
   @media (max-width: 768px) {
@@ -20,7 +20,7 @@ const HeaderContainer = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 60px;
+  height: 130px;
   
   @media (max-width: 768px) {
     margin-bottom: 30px;
