@@ -10,7 +10,7 @@ function Home() {
       <Container>
         <Title>Desenvolvimento Web</Title>
         <Subtitle>Transformamos suas ideias em soluções digitais</Subtitle>
-        <a href="https://api.whatsapp.com/send?phone=5511980660741&text=Ol%C3%A1,%20eu%20gostaria%20de%20um%20or%C3%A7amento" target="_blank"><Button>Entre em contato</Button></a>
+        <a href="https://wa.me/5511941444178?text=Ol%C3%A1%2C+Vi+seu+numero+seu+site+e+quero+um+or%C3%A7amento." target="_blank"><Button>Entre em contato</Button></a>
       </Container>
       <Grid/></>
     );

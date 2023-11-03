@@ -32,17 +32,17 @@ const Footer = () => {
   return (
     <FooterContainer>
       <SocialIconsContainer>
-        <SocialIconLink href="#" target="_blank">
+        <SocialIconLink href="https://www.facebook.com/profile.php?id=61551086261029" target="_blank">
           <FaFacebookF />
         </SocialIconLink>
-        <SocialIconLink href="#">
+        <SocialIconLink href="https://github.com/Wilton-compactcode">
           <FaGithub />
         </SocialIconLink>
-        <SocialIconLink href="#" target="_blank">
+        <SocialIconLink href="https://www.instagram.com/wiltongoncalves.dev/" target="_blank">
           <FaInstagram />
         </SocialIconLink>
       </SocialIconsContainer>
-      <h2>Ligue: (11)98066-0741</h2>
+      <h2>Ligue: (11)94144-4178</h2>
       <RightsReserved>&copy; 2023 CompactCode Brasil / Todos os direitos reservados.</RightsReserved>
     </FooterContainer>
   );

@@ -116,7 +116,7 @@ function Header() {
         <NavItem href="/">Home</NavItem>
         <NavItem href="/sobre">Sobre</NavItem>
         <ContactButton
-            href="https://api.whatsapp.com/send?phone=5511980660741&text=Ol%C3%A1,%20eu%20gostaria%20de%20um%20or%C3%A7amento"
+            href="https://wa.me/5511941444178?text=Ol%C3%A1%2C+Vi+seu+numero+seu+site+e+quero+um+or%C3%A7amento."
             target="_blank"
             rel="noopener noreferrer"
           >
