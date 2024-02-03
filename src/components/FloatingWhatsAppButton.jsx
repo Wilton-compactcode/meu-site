@@ -21,7 +21,7 @@ const Container = styled.div`
 const FloatingWhatsAppButton = () => {
     const openWhatsApp = () => {
         // Adicione aqui a lógica para abrir o link do WhatsApp
-        window.open('https://api.whatsapp.com/send?phone=+5511941444178&text=Ol%C3%A1+Wilton%2C+v%C3%AD+o+seu+contato+no+seu+site+e+preciso+de+um+or%C3%A7amento%21', '_blank');
+        window.open('https://wa.me/5511941444178?text=Ol%C3%A1%2C+Vi+seu+numero+seu+site+e+quero+um+or%C3%A7amento.', '_blank');
       };
   return (
     <Container onClick={openWhatsApp}>
