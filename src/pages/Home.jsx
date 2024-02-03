@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import backgroundImg from '../assets/banner1.jpg';
-import Grid from '../components/Grid';
+import Cards from '../components/CardContainer';
+import FloatingWhatsAppButton from '../components/FloatingWhatsAppButton';
 
 
 function Home() {
@@ -12,7 +13,10 @@ function Home() {
         <Subtitle>Transformamos suas ideias em soluções digitais</Subtitle>
         <a href="https://api.whatsapp.com/send?phone=5511980660741&text=Ol%C3%A1,%20eu%20gostaria%20de%20um%20or%C3%A7amento" target="_blank"><Button>Entre em contato</Button></a>
       </Container>
-      <Grid/></>
+      <Cards/>
+      <FloatingWhatsAppButton/>
+      </>
+      
     );
   }
 
@@ -57,12 +61,14 @@ const Button = styled.button`
   padding: 1rem 2rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: #057410;
-  color: white;
+  background-color: #cce988;
+  color: #2a07ee;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   &:hover {
     background-color: #022912;
+  color: #f3f2f7;
+
   }
 `;
   

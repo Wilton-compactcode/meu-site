@@ -17,6 +17,17 @@ const SocialIconsContainer = styled.div`
   align-items: center;
 `;
 
+const DevLink = styled.a`
+  margin: 0 10px;
+  color: #0974ee;
+  text-decoration: none;
+  font-size: 24px;
+
+  &:hover {
+    color: #00ff9d;
+  }
+`;
+
 const SocialIconLink = styled.a`
   color: #fff;
   font-size: 20px;
@@ -32,18 +43,18 @@ const Footer = () => {
   return (
     <FooterContainer>
       <SocialIconsContainer>
-        <SocialIconLink href="#" target="_blank">
+        <SocialIconLink href="https://www.facebook.com/profile.php?id=61551086261029" target="_blank">
           <FaFacebookF />
         </SocialIconLink>
-        <SocialIconLink href="#">
+        <SocialIconLink href="https://github.com/Wilton-compactcode">
           <FaGithub />
         </SocialIconLink>
-        <SocialIconLink href="#" target="_blank">
+        <SocialIconLink href="https://www.instagram.com/wiltongoncalves.dev/" target="_blank">
           <FaInstagram />
         </SocialIconLink>
       </SocialIconsContainer>
-      <h2>Ligue: (11)98066-0741</h2>
-      <RightsReserved>&copy; 2023 CompactCode Brasil / Todos os direitos reservados.</RightsReserved>
+      <h2>Ligue: (11)94144-4178</h2>
+      <RightsReserved>Todos os direitos reservados &copy; 2023 <DevLink href='https://compactcodebrasil.com.br/' target="_blank">CompactCode Brasil</DevLink></RightsReserved>
     </FooterContainer>
   );
 };
