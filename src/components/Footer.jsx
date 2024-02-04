@@ -17,16 +17,16 @@ const SocialIconsContainer = styled.div`
   align-items: center;
 `;
 
-const DevLink = styled.a`
-  margin: 0 10px;
-  color: #0974ee;
-  text-decoration: none;
-  font-size: 24px;
+// const DevLink = styled.a`
+//   margin: 0 10px;
+//   color: #0974ee;
+//   text-decoration: none;
+//   font-size: 24px;
 
-  &:hover {
-    color: #00ff9d;
-  }
-`;
+//   &:hover {
+//     color: #00ff9d;
+//   }
+// `;
 
 const SocialIconLink = styled.a`
   color: #fff;
