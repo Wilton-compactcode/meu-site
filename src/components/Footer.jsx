@@ -17,16 +17,16 @@ const SocialIconsContainer = styled.div`
   align-items: center;
 `;
 
-// const DevLink = styled.a`
-//   margin: 0 10px;
-//   color: #0974ee;
-//   text-decoration: none;
-//   font-size: 24px;
+const DevLink = styled.a`
+  margin: 0 10px;
+  color: #0974ee;
+  text-decoration: none;
+  font-size: 24px;
 
-//   &:hover {
-//     color: #00ff9d;
-//   }
-// `;
+  &:hover {
+    color: #00ff9d;
+  }
+`;
 
 const SocialIconLink = styled.a`
   color: #fff;
@@ -54,8 +54,8 @@ const Footer = () => {
         </SocialIconLink>
       </SocialIconsContainer>
       <h2>Ligue: (11) 9.4144-4178</h2>
-      <RightsReserved>Todos os direitos reservados &copy; 2023 CompactCode Brasil </RightsReserved>
-    </FooterContainer>
+      <RightsReserved>Todos os direitos reservados © {new Date().getFullYear()} <DevLink href='https://compactcodebrasil.com.br/' target="_blank">CompactCode Brasil</DevLink> </RightsReserved>
+      </FooterContainer>
   );
 };
 
