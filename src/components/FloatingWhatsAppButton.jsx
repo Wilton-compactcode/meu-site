@@ -19,8 +19,8 @@ const Container = styled.div`
 `;
 
 const FloatingWhatsAppButton = () => {
-    const openWhatsApp = () => {
-        // Adicione aqui a lógica para abrir o link do WhatsApp
+   const openWhatsApp = () => {
+         // Adicione aqui a lógica para abrir o link do WhatsApp
         window.open('https://wa.me/5511941444178?text=Ol%C3%A1%2C+Vi+seu+numero+seu+site+e+quero+um+or%C3%A7amento.', '_blank');
       };
   return (

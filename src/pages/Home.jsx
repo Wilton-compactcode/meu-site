@@ -6,12 +6,16 @@ import FloatingWhatsAppButton from '../components/FloatingWhatsAppButton';
 
 
 function Home() {
+  const openWhatsAppButton = () => {
+    // Adicione aqui a lógica para abrir o link do WhatsApp
+   window.open('https://wa.me/5511941444178?text=Ol%C3%A1%2C+Vi+seu+numero+seu+site+e+quero+um+or%C3%A7amento.', '_blank');
+  };
     return (
       <>
       <Container>
         <Title>Desenvolvimento Web</Title>
         <Subtitle>Transformamos suas ideias em soluções digitais</Subtitle>
-        <Button href="https://wa.me/5511941444178?text=Ol%C3%A1%2C+Vi+seu+numero+seu+site+e+quero+um+or%C3%A7amento." target="_blank"><Button>Entre em contato</Button></Button>
+        <Button onClick={openWhatsAppButton}>Entre em contato</Button>
       </Container>
       <Cards/>
       <FloatingWhatsAppButton/>
