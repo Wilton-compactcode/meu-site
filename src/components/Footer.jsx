@@ -53,8 +53,8 @@ const Footer = () => {
           <FaInstagram />
         </SocialIconLink>
       </SocialIconsContainer>
-      <h2>Ligue: (11)94144-4178</h2>
-      <RightsReserved>&copy; 2023 CompactCode Brasil / Todos os direitos reservados.</RightsReserved>
+      <h2>Ligue: (11) 9.4144-4178</h2>
+      <RightsReserved>Todos os direitos reservados &copy; 2023 CompactCode Brasil </RightsReserved>
     </FooterContainer>
   );
 };
