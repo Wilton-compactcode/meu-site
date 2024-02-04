@@ -34,7 +34,7 @@ function Home() {
 
 const Title = styled.h1`
   font-size: 3rem;
-  color: #1b07f7;
+  color: #0783f7;
   text-align: center;
   margin-bottom: 2rem;
   @media screen and (max-width: 768px) {
@@ -46,7 +46,7 @@ const Title = styled.h1`
 
 const Subtitle = styled.h2`
   font-size: 2rem;
-  color: #f78f07;
+  color: #0777f7;
   text-align: center;
   margin-bottom: 2rem;
   @media screen and (max-width: 768px) {
@@ -57,11 +57,11 @@ const Subtitle = styled.h2`
 `;
 
 const Button = styled.button`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 1rem 2rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: #cce988;
+  background-color: #0ae766;
   color: #2a07ee;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
